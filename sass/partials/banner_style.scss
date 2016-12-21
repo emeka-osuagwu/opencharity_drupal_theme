@@ -1,0 +1,39 @@
+.opencharity__banner {
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    padding: 80px 30px;
+    background-image: url('../../assets/image/Link to JBW2PXDOL6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .opencharity__banner__lead_overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #FFF;
+        background: rgba(0, 0, 0, .6);
+    }
+
+    .opencharity__banner__lead_text {
+        text-transform: uppercase;
+        font-size: 50px;
+        z-index: 09988;
+        text-align: center;
+        position: relative;
+        text-align: center;
+    }
+
+    .opencharity__banner__sub_text {
+        margin: 26px auto;
+        width: 42%;
+        display: block;
+        z-index: 09988;
+        position: relative;
+        text-align: center;
+        font-size: small;
+    }
+}

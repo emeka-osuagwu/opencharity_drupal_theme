@@ -1,0 +1,44 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0px;
+}
+
+p {
+  line-height: 25px;
+  text-align: left;
+}
+
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+  border: 0 none;
+}
+
+button:focus {
+  outline: none
+}
+
+.opencharity {
+    font-family: 'Montserrat', sans-serif;
+    color: #565659;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);

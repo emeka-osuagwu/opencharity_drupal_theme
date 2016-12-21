@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+/* line 2, ../../sass/partials/base.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* line 8, ../../sass/partials/base.scss */
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/* line 14, ../../sass/partials/base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 18, ../../sass/partials/base.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+}
+
+/* line 22, ../../sass/partials/base.scss */
+p {
+  line-height: 25px;
+  text-align: left;
+}
+
+/* line 27, ../../sass/partials/base.scss */
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0 none;
+}
+
+/* line 35, ../../sass/partials/base.scss */
+button:focus {
+  outline: none;
+}
+
+/* line 39, ../../sass/partials/base.scss */
+.opencharity {
+  font-family: 'Montserrat', sans-serif;
+  color: #565659;
+}

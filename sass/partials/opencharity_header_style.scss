@@ -1,0 +1,41 @@
+.opencharity__header {
+   
+    padding: 19px 100px;
+    box-shadow: 0px 0px 6px grey;
+    background-color: #fff;
+    height: 78px;
+
+    .opencharity__header__logo {
+        width: 160px;
+        padding: 0px;
+        margin: 0px;
+        display: inline-block;
+    }
+
+    .opencharity__header__nav {
+        padding: 10px 0px;
+        float: right;
+        display: inline-block;
+
+        .menu {
+            margin: 0px;
+            display: inline;
+            padding: 0px;
+            list-style: none;
+            
+            .menu__item {
+                margin: 0px;
+                display: inline;
+                padding: 0px;
+                
+                .menu__link {
+                    text-transform: uppercase;
+                    padding: 13px 30px;
+                    color: $black_one;
+                }
+
+            }
+        }
+    }
+
+}
