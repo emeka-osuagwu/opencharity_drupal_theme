@@ -57,52 +57,117 @@ button:focus {
   height: 78px;
 }
 /* line 8, ../sass/partials/opencharity_header_style.scss */
+.opencharity__header .opencharity__header__dropdown-icon {
+  display: none;
+}
+/* line 12, ../sass/partials/opencharity_header_style.scss */
 .opencharity__header .opencharity__header__logo {
   width: 160px;
   padding: 0px;
   margin: 0px;
   display: inline-block;
 }
-/* line 15, ../sass/partials/opencharity_header_style.scss */
+/* line 19, ../sass/partials/opencharity_header_style.scss */
 .opencharity__header .opencharity__header__nav {
   padding: 10px 0px;
   float: right;
   display: inline-block;
 }
-/* line 20, ../sass/partials/opencharity_header_style.scss */
+/* line 24, ../sass/partials/opencharity_header_style.scss */
 .opencharity__header .opencharity__header__nav .menu {
   margin: 0px;
   display: inline;
   padding: 0px;
   list-style: none;
 }
-/* line 26, ../sass/partials/opencharity_header_style.scss */
+/* line 30, ../sass/partials/opencharity_header_style.scss */
 .opencharity__header .opencharity__header__nav .menu .menu__item {
   margin: 0px;
   display: inline;
   padding: 0px;
 }
-/* line 31, ../sass/partials/opencharity_header_style.scss */
+/* line 35, ../sass/partials/opencharity_header_style.scss */
 .opencharity__header .opencharity__header__nav .menu .menu__item .menu__link {
   text-transform: uppercase;
   padding: 13px 30px;
   color: #565659;
 }
 
-/* line 1, ../sass/partials/banner_style.scss */
+/* line 47, ../sass/partials/opencharity_header_style.scss */
+.opencharity__header__nav--mobile {
+  display: none;
+}
+/* line 50, ../sass/partials/opencharity_header_style.scss */
+.opencharity__header__nav--mobile .menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+/* line 55, ../sass/partials/opencharity_header_style.scss */
+.opencharity__header__nav--mobile .menu .menu__item {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 0.88px solid #5BC0C3;
+  background-color: #fff;
+}
+/* line 61, ../sass/partials/opencharity_header_style.scss */
+.opencharity__header__nav--mobile .menu .menu__item .menu__link {
+  text-transform: uppercase;
+  padding: 13px 30px;
+  color: #5BC0C3;
+}
+
+/* Extra exception screens */
+/* Small only  aka mobile*/
+@media screen and (max-width: 39.9375em) {
+  /* line 80, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__header {
+    height: 63px;
+  }
+  /* line 84, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__header .opencharity__header__dropdown-icon {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 47px;
+    width: 40px;
+  }
+  /* line 92, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__header .opencharity__header__nav {
+    display: none;
+  }
+
+  /* line 98, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__banner {
+    background-color: red;
+    padding: 39px 0px;
+  }
+  /* line 103, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__banner .opencharity__banner__lead_text {
+    font-size: 31px;
+    line-height: normal;
+  }
+}
+/* Medium and up*/
+/* Medium only aka ipad */
+/* Large and up  aka big ipad and laptops :(*/
+/* Large only */
+/* line 21, ../sass/partials/banner_style.scss */
 .opencharity__banner {
-  color: #fff;
+  color: red;
+  height: 100%;
+  overflow: hidden;
   margin: 0px;
   text-align: center;
-  padding: 80px 30px;
   background-image: url("../../assets/image/Link to JBW2PXDOL6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-/* line 11, ../sass/partials/banner_style.scss */
+/* line 32, ../sass/partials/banner_style.scss */
 .opencharity__banner .opencharity__banner__lead_overlay {
   position: absolute;
+  display: none;
   top: 0;
   left: 0;
   width: 100%;
@@ -110,22 +175,81 @@ button:focus {
   color: #FFF;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 21, ../sass/partials/banner_style.scss */
-.opencharity__banner .opencharity__banner__lead_text {
+/* line 43, ../sass/partials/banner_style.scss */
+.opencharity__banner .views-field-field-banner-image {
+  height: 500px;
+}
+/* line 47, ../sass/partials/banner_style.scss */
+.opencharity__banner .sub_text--wrapper {
+  position: absolute;
+  padding: 80px 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.6);
+}
+/* line 57, ../sass/partials/banner_style.scss */
+.opencharity__banner .sub_text--wrapper .first {
   text-transform: uppercase;
   font-size: 50px;
-  z-index: 09988;
-  text-align: center;
+  z-index: 1;
+  margin-top: 35px;
   position: relative;
   text-align: center;
+  width: 100%;
 }
-/* line 30, ../sass/partials/banner_style.scss */
-.opencharity__banner .opencharity__banner__sub_text {
-  margin: 26px auto;
-  width: 42%;
+/* line 62, ../sass/partials/banner_style.scss */
+.opencharity__banner .sub_text--wrapper li {
+  margin: 40px auto;
   display: block;
-  z-index: 09988;
+  z-index: 1;
   position: relative;
   text-align: center;
   font-size: small;
+  width: 44%;
+}
+
+/* line 3, ../sass/partials/footer_style.scss */
+.opencharity__footer {
+  background-color: #454850;
+  text-align: center;
+  padding: 20px 100px;
+}
+/* line 8, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav {
+  display: block;
+  padding: 10px;
+  border-bottom: 2px solid;
+}
+/* line 13, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav li {
+  display: inline-block;
+  margin: 5px;
+}
+/* line 17, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav li img {
+  width: 20px;
+  mix-width: 10px;
+  min-width: 10px;
+}
+/* line 24, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav .first img {
+  width: 10px;
+}
+/* line 28, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav .last img {
+  width: 23px;
+}
+/* line 34, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__trade_mark {
+  padding: 10px;
+  display: block;
+}
+/* line 38, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__trade_mark li {
+  display: inline-block;
+  color: #969EB7;
+  font-size: 14px;
 }

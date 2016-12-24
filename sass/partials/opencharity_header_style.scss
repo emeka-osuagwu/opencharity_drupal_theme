@@ -5,6 +5,10 @@
     background-color: #fff;
     height: 78px;
 
+    .opencharity__header__dropdown-icon {
+        display: none;
+    }
+
     .opencharity__header__logo {
         width: 160px;
         padding: 0px;
@@ -39,3 +43,81 @@
     }
 
 }
+
+.opencharity__header__nav--mobile {
+    display: none;
+
+    .menu {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        
+        .menu__item {
+            padding: 16px;
+            text-align: center;
+            border-bottom: 0.88px solid #5BC0C3;
+            background-color: #fff;
+
+            .menu__link {
+                text-transform: uppercase;
+                padding: 13px 30px;
+                color: $blue;
+            }
+        }
+    }
+}
+
+
+
+/* Extra exception screens */
+@media screen and (max-width: 320px) {
+
+}
+
+/* Small only  aka mobile*/
+@media screen and (max-width: 39.9375em) {
+
+    .opencharity__header {
+        
+        height: 63px;
+
+        .opencharity__header__dropdown-icon {
+            display: block;
+            position: absolute;
+            top: 13px;
+            right: 47px;
+            width: 40px;
+        }
+
+        .opencharity__header__nav {
+            display: none;
+        }
+        
+    }
+
+    .opencharity__banner {
+        
+        background-color: red;
+        padding: 39px 0px;
+
+        .opencharity__banner__lead_text {
+            font-size: 31px;
+            line-height: normal;
+        }
+    }
+
+}
+
+/* Medium and up*/
+@media screen and (min-width: 40em) {}
+
+/* Medium only aka ipad */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up  aka big ipad and laptops :(*/
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+@media screen and (max-width: 768px) {}

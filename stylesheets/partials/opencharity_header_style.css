@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$black_one".
-        on line 34 of /var/www/html/drupal/drupal/sites/all/themes/opencharity/sass/partials/opencharity_header_style.scss
+        on line 38 of /var/www/html/drupal/drupal/sites/all/themes/opencharity/sass/partials/opencharity_header_style.scss
 
-29:                 padding: 0px;
-30:                 
-31:                 .menu__link {
-32:                     text-transform: uppercase;
-33:                     padding: 13px 30px;
-34:                     color: $black_one;
-35:                 }
-36: 
-37:             }
-38:         }
-39:     }
+33:                 padding: 0px;
+34:                 
+35:                 .menu__link {
+36:                     text-transform: uppercase;
+37:                     padding: 13px 30px;
+38:                     color: $black_one;
+39:                 }
+40: 
+41:             }
+42:         }
+43:     }
 
 Backtrace:
-/var/www/html/drupal/drupal/sites/all/themes/opencharity/sass/partials/opencharity_header_style.scss:34
+/var/www/html/drupal/drupal/sites/all/themes/opencharity/sass/partials/opencharity_header_style.scss:38
 /home/emeka/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /home/emeka/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /home/emeka/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -112,4 +112,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black_one\".\A         on line 34 of /var/www/html/drupal/drupal/sites/all/themes/opencharity/sass/partials/opencharity_header_style.scss\A \A 29:                 padding: 0px;\A 30:                 \A 31:                 .menu__link {\A 32:                     text-transform: uppercase;\A 33:                     padding: 13px 30px;\A 34:                     color: $black_one;\A 35:                 }\A 36: \A 37:             }\A 38:         }\A 39:     }"; }
+  content: "Error: Undefined variable: \"$black_one\".\A         on line 38 of /var/www/html/drupal/drupal/sites/all/themes/opencharity/sass/partials/opencharity_header_style.scss\A \A 33:                 padding: 0px;\A 34:                 \A 35:                 .menu__link {\A 36:                     text-transform: uppercase;\A 37:                     padding: 13px 30px;\A 38:                     color: $black_one;\A 39:                 }\A 40: \A 41:             }\A 42:         }\A 43:     }"; }

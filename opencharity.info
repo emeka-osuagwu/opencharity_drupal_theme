@@ -10,11 +10,16 @@ base theme  = zen
 stylesheets[all][] = css/styles.css
 stylesheets[all][] = stylesheets/theme.css
 
-
-;scripts[] = js/script.js
+scripts[] = js/lib/jquery-1.12.4.js
+scripts[] = js/lib/jquery-ui.js
+scripts[] = js/custom.js
 
 regions[header]         = Header
 regions[navigation]     = Navigation bar
+regions[banner]     	= Banner
+regions[event]     		= Event bar
+regions[call_to_action] = Call to action
+
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content

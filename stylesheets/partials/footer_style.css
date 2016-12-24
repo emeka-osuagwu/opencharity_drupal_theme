@@ -1,0 +1,42 @@
+/* line 3, ../../sass/partials/footer_style.scss */
+.opencharity__footer {
+  background-color: #454850;
+  text-align: center;
+  padding: 20px 100px;
+}
+/* line 8, ../../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav {
+  display: block;
+  padding: 10px;
+  border-bottom: 2px solid;
+}
+/* line 13, ../../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav li {
+  display: inline-block;
+  margin: 5px;
+}
+/* line 17, ../../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav li img {
+  width: 20px;
+  mix-width: 10px;
+  min-width: 10px;
+}
+/* line 24, ../../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav .first img {
+  width: 10px;
+}
+/* line 28, ../../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav .last img {
+  width: 23px;
+}
+/* line 34, ../../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__trade_mark {
+  padding: 10px;
+  display: block;
+}
+/* line 38, ../../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__trade_mark li {
+  display: inline-block;
+  color: #969EB7;
+  font-size: 14px;
+}

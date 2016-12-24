@@ -1,17 +1,19 @@
-/* line 1, ../../sass/partials/banner_style.scss */
+/* line 21, ../../sass/partials/banner_style.scss */
 .opencharity__banner {
-  color: #fff;
+  color: red;
+  height: 100%;
+  overflow: hidden;
   margin: 0px;
   text-align: center;
-  padding: 80px 30px;
   background-image: url("../../assets/image/Link to JBW2PXDOL6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-/* line 11, ../../sass/partials/banner_style.scss */
+/* line 32, ../../sass/partials/banner_style.scss */
 .opencharity__banner .opencharity__banner__lead_overlay {
   position: absolute;
+  display: none;
   top: 0;
   left: 0;
   width: 100%;
@@ -19,22 +21,38 @@
   color: #FFF;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 21, ../../sass/partials/banner_style.scss */
-.opencharity__banner .opencharity__banner__lead_text {
+/* line 43, ../../sass/partials/banner_style.scss */
+.opencharity__banner .views-field-field-banner-image {
+  height: 500px;
+}
+/* line 47, ../../sass/partials/banner_style.scss */
+.opencharity__banner .sub_text--wrapper {
+  position: absolute;
+  padding: 80px 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.6);
+}
+/* line 57, ../../sass/partials/banner_style.scss */
+.opencharity__banner .sub_text--wrapper .first {
   text-transform: uppercase;
   font-size: 50px;
-  z-index: 09988;
-  text-align: center;
+  z-index: 1;
+  margin-top: 35px;
   position: relative;
   text-align: center;
+  width: 100%;
 }
-/* line 30, ../../sass/partials/banner_style.scss */
-.opencharity__banner .opencharity__banner__sub_text {
-  margin: 26px auto;
-  width: 42%;
+/* line 62, ../../sass/partials/banner_style.scss */
+.opencharity__banner .sub_text--wrapper li {
+  margin: 40px auto;
   display: block;
-  z-index: 09988;
+  z-index: 1;
   position: relative;
   text-align: center;
   font-size: small;
+  width: 44%;
 }

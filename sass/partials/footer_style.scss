@@ -1,0 +1,47 @@
+@import "partials/color";
+
+.opencharity__footer {
+    background-color: $black_two;
+    text-align: center;
+    padding: 20px 100px;
+
+    .opencharity__footer__nav {
+        display: block;
+        padding: 10px;
+        border-bottom: 2px solid;
+
+        li {
+            display: inline-block;
+            margin: 5px;
+
+            img {
+                width: 20px;
+                mix-width: 10px;
+                min-width: 10px;
+            }
+        }
+
+        .first img {
+            width: 10px;
+        }
+
+        .last img {
+            width: 23px;
+        }
+
+    }
+
+    .opencharity__footer__trade_mark {
+        padding: 10px;
+        display: block;
+
+        li {
+            display: inline-block;
+            color: #969EB7;
+            font-size: 14px;
+        }
+    }
+
+
+
+}

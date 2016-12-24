@@ -1,8 +1,29 @@
+@mixin opencharity__banner__lead_text {
+    text-transform: uppercase;
+    font-size: 50px;
+    z-index: 1;
+    margin-top: 35px;
+    position: relative;
+    text-align: center;
+}
+
+
+@mixin opencharity__banner__sub_text {
+    margin: 40px auto;
+    display: block;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: small;
+}
+
+
 .opencharity__banner {
-    color: #fff;
+    color: red;
+    height: 100%;
+    overflow: hidden;
     margin: 0px;
     text-align: center;
-    padding: 80px 30px;
     background-image: url('../../assets/image/Link to JBW2PXDOL6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,6 +31,7 @@
 
     .opencharity__banner__lead_overlay {
         position: absolute;
+        display: none;
         top: 0;
         left: 0;
         width: 100%;
@@ -18,22 +40,30 @@
         background: rgba(0, 0, 0, .6);
     }
 
-    .opencharity__banner__lead_text {
-        text-transform: uppercase;
-        font-size: 50px;
-        z-index: 09988;
-        text-align: center;
-        position: relative;
-        text-align: center;
+    .views-field-field-banner-image {
+        height: 500px;
     }
 
-    .opencharity__banner__sub_text {
-        margin: 26px auto;
-        width: 42%;
-        display: block;
-        z-index: 09988;
-        position: relative;
-        text-align: center;
-        font-size: small;
+    .sub_text--wrapper {
+        position: absolute;
+        padding: 80px 30px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #FFF;
+        background: rgba(0, 0, 0, .6);
+
+        .first {
+            @include opencharity__banner__lead_text;
+            width: 100%;
+        }
+
+        li {
+            @include opencharity__banner__sub_text;
+            width: 44%;
+        }
+
     }
+
 }

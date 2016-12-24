@@ -13,6 +13,8 @@
 					</a>
 				<?php endif; ?>
 
+				<img id="button" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" class="opencharity__header__dropdown-icon">
+
 				<?php if ($page['navigation']): ?>
 					<div class="opencharity__header__nav">
 				  		<?php print render($page['navigation']); ?>
@@ -20,19 +22,40 @@
 				<?php endif; ?>
 
 			</header>
+
+			<?php if ($page['navigation']): ?>
+				<div class="opencharity__header__nav--mobile" id='effect'>
+			  		<?php print render($page['navigation']); ?>
+				</div>
+			<?php endif; ?>
+
 		<!-- #Header -->
+
+	<?php endif; ?>
+	
+
+	<?php if ($page['banner']): ?>
+
+		<div class="opencharity__banner">
+			<?php print render($page['banner']); ?>
+		</div>
+
+	<?php endif; ?>
+
+	<?php if ($page['event']): ?>
+
+		<div class="opencharity__banner">
+			<?php print render($page['event']); ?>
+		</div>
 
 	<?php endif; ?>
 
 
-	<div class="opencharity__banner">
-			<div class="opencharity__banner__lead_overlay"></div>
-			<img src="/home/emeka/Documents/Compucorp/Opencharity/opencharity/assets/image/JBW2PXDOL61.jpg">
-			<p class="opencharity__banner__lead_text">Share ideas for charity</p>
-			<p class="opencharity__banner__sub_text">Many charities goals are similar, and it is the functionality we require, but little shared work takes place.</p>
-			<p class="opencharity__banner__sub_text">By working together, driving shared area of interest and influencing open source development we can bring efficiencies, improve digital experience for our users, and have grate impact.</p>
-			<p class="opencharity__banner__sub_text">Together we can make a bigger difference.</p>
-	</div>
+	<?php if ($page['footer']): ?>
+		<footer class="opencharity__footer">
+			<?php print render($page['footer']); ?>
+		</footer>
+	<?php endif; ?>
 
 	
 </div>
