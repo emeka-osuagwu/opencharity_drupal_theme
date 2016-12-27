@@ -1,0 +1,36 @@
+@import "partials/color";
+
+.opencharity__slider--blog_slider {
+    text-align: center;
+    padding: 20px 0px;
+
+    .block__title {
+        text-transform: uppercase;
+        margin: 20px;
+        font-size: 30px;
+    }
+
+    td {
+        text-align: left;
+        display: inline-block;
+        width: 22%;
+        margin: 9px;
+    
+        .first {
+            color: $blue;
+            margin-bottom: 7px;
+        }
+
+        li:nth-child(2) {
+            border-top: 1px solid #F1F2F5;
+            border-bottom: 1px solid #F1F2F5;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        li:nth-child(3) {
+            margin-top: 20px;
+        }
+
+    }
+}

@@ -19,14 +19,11 @@ regions[navigation]     = Navigation bar
 regions[banner]     	= Banner
 regions[event]     		= Event bar
 regions[call_to_action] = Call to action
-
-regions[highlighted]    = Highlighted
-regions[help]           = Help
 regions[content]        = Content
-regions[sidebar_first]  = First sidebar
-regions[sidebar_second] = Second sidebar
+regions[involved]  		= Involved Bar
+regions[member]  		= Member Bar
+regions[blog]  			= Blog Bar
 regions[footer]         = Footer
-regions[bottom]         = Page bottom
 
 features[] = logo
 features[] = name

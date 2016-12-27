@@ -1,0 +1,22 @@
+/* line 1, ../../sass/partials/member_style.scss */
+.opencharity__slider--member_slider {
+  padding: 42px 15px;
+  text-align: center;
+  background-color: #F1F2F5;
+}
+/* line 7, ../../sass/partials/member_style.scss */
+.opencharity__slider--member_slider .block__title {
+  font-size: 26px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+/* line 15, ../../sass/partials/member_style.scss */
+.opencharity__slider--member_slider ul li {
+  margin: 2px 64px;
+  display: inline-block;
+}
+/* line 20, ../../sass/partials/member_style.scss */
+.opencharity__slider--member_slider ul li img {
+  width: 100px;
+  vertical-align: -webkit-baseline-middle;
+}

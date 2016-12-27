@@ -4,32 +4,33 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  font-size: 13px;
 }
 
-/* line 8, ../sass/partials/base.scss */
+/* line 9, ../sass/partials/base.scss */
 ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
-/* line 14, ../sass/partials/base.scss */
+/* line 15, ../sass/partials/base.scss */
 a {
   text-decoration: none;
 }
 
-/* line 18, ../sass/partials/base.scss */
+/* line 19, ../sass/partials/base.scss */
 h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
 }
 
-/* line 22, ../sass/partials/base.scss */
+/* line 23, ../sass/partials/base.scss */
 p {
   line-height: 25px;
   text-align: left;
 }
 
-/* line 27, ../sass/partials/base.scss */
+/* line 28, ../sass/partials/base.scss */
 button {
   cursor: pointer;
   -webkit-appearance: none;
@@ -38,15 +39,20 @@ button {
   border: 0 none;
 }
 
-/* line 35, ../sass/partials/base.scss */
+/* line 36, ../sass/partials/base.scss */
 button:focus {
   outline: none;
 }
 
-/* line 39, ../sass/partials/base.scss */
+/* line 40, ../sass/partials/base.scss */
 .opencharity {
   font-family: 'Montserrat', sans-serif;
   color: #565659;
+}
+
+/* line 45, ../sass/partials/base.scss */
+h2 {
+  font-weight: initial;
 }
 
 /* line 1, ../sass/partials/opencharity_header_style.scss */
@@ -252,4 +258,111 @@ button:focus {
   display: inline-block;
   color: #969EB7;
   font-size: 14px;
+}
+
+/* line 3, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider {
+  text-align: center;
+  padding: 20px 0px;
+}
+/* line 7, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider .block__title {
+  text-transform: uppercase;
+  margin: 20px;
+  font-size: 30px;
+}
+/* line 13, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider td {
+  text-align: left;
+  display: inline-block;
+  width: 22%;
+  margin: 9px;
+}
+/* line 19, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider td .first {
+  color: #5BC0C3;
+  margin-bottom: 7px;
+}
+/* line 24, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider td li:nth-child(2) {
+  border-top: 1px solid #F1F2F5;
+  border-bottom: 1px solid #F1F2F5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* line 31, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider td li:nth-child(3) {
+  margin-top: 20px;
+}
+
+/* line 1, ../sass/partials/social_style.scss */
+.opencharity__call_to_action--social {
+  text-align: center;
+  padding: 28px 0px;
+}
+/* line 5, ../sass/partials/social_style.scss */
+.opencharity__call_to_action--social .block__title {
+  margin-bottom: 19px;
+}
+/* line 9, ../sass/partials/social_style.scss */
+.opencharity__call_to_action--social td {
+  display: inline-block;
+  width: 30%;
+  margin-top: 20px;
+  padding: 4px;
+}
+/* line 15, ../sass/partials/social_style.scss */
+.opencharity__call_to_action--social td .views-field-title {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+/* line 20, ../sass/partials/social_style.scss */
+.opencharity__call_to_action--social td img {
+  width: 100px;
+}
+/* line 24, ../sass/partials/social_style.scss */
+.opencharity__call_to_action--social td ul {
+  text-align: center;
+}
+/* line 27, ../sass/partials/social_style.scss */
+.opencharity__call_to_action--social td .first {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+/* line 32, ../sass/partials/social_style.scss */
+.opencharity__call_to_action--social td li:nth-child(2) {
+  padding: 20px 30px;
+}
+/* line 36, ../sass/partials/social_style.scss */
+.opencharity__call_to_action--social td li:nth-child(3) {
+  border: 1px solid #5BC0C3;
+  background-color: transparent;
+  color: #5BC0C3;
+  padding: 12px 35px;
+  text-transform: uppercase;
+  width: 60%;
+  margin: 0px auto;
+}
+
+/* line 1, ../sass/partials/member_style.scss */
+.opencharity__slider--member_slider {
+  padding: 42px 15px;
+  text-align: center;
+  background-color: #F1F2F5;
+}
+/* line 7, ../sass/partials/member_style.scss */
+.opencharity__slider--member_slider .block__title {
+  font-size: 26px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+/* line 15, ../sass/partials/member_style.scss */
+.opencharity__slider--member_slider ul li {
+  margin: 2px 64px;
+  display: inline-block;
+}
+/* line 20, ../sass/partials/member_style.scss */
+.opencharity__slider--member_slider ul li img {
+  width: 100px;
+  vertical-align: -webkit-baseline-middle;
 }

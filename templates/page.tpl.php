@@ -35,27 +35,37 @@
 	
 
 	<?php if ($page['banner']): ?>
-
 		<div class="opencharity__banner">
 			<?php print render($page['banner']); ?>
 		</div>
-
 	<?php endif; ?>
-
-	<?php if ($page['event']): ?>
-
-		<div class="opencharity__banner">
-			<?php print render($page['event']); ?>
+	
+	<?php if ($page['involved']): ?>
+		<div class="opencharity__call_to_action--social">
+			<?php print render($page['involved']); ?>
 		</div>
-
 	<?php endif; ?>
 
+
+
+	<?php if ($page['member']): ?>
+		<div class="opencharity__slider--member_slider">
+			<?php print render($page['member']); ?>
+		</div>
+	<?php endif; ?>
+
+	<?php if ($page['blog']): ?>
+		<div class="opencharity__slider--blog_slider">
+			<?php print render($page['blog']); ?>
+		</div>
+	<?php endif; ?>
 
 	<?php if ($page['footer']): ?>
 		<footer class="opencharity__footer">
 			<?php print render($page['footer']); ?>
 		</footer>
 	<?php endif; ?>
+
 
 	
 </div>

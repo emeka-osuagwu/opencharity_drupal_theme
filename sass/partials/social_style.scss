@@ -1,0 +1,47 @@
+.opencharity__call_to_action--social {
+    text-align: center;
+    padding: 28px 0px;
+
+    .block__title {
+        margin-bottom: 19px;
+    }
+
+    td {
+        display: inline-block;
+        width: 30%;
+        margin-top: 20px;
+        padding: 4px;
+
+        .views-field-title {
+            margin-top: 30px;
+            text-transform: uppercase;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        ul {
+            text-align: center;
+        }
+        .first {
+            margin-top: 30px;
+            text-transform: uppercase;
+        }
+
+        li:nth-child(2){
+            padding: 20px 30px;
+        }
+
+        li:nth-child(3){
+            border: 1px solid #5BC0C3;
+            background-color: transparent;
+            color: #5BC0C3;
+            padding: 12px 35px;
+            text-transform: uppercase;
+            width: 60%;
+            margin: 0px auto;
+        }
+    }
+
+}

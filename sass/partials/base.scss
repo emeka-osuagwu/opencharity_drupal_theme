@@ -3,6 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  font-size: 13px;
 }
 
 ul {
@@ -39,6 +40,10 @@ button:focus {
 .opencharity {
     font-family: 'Montserrat', sans-serif;
     color: #565659;
+}
+
+h2 {
+    font-weight: initial;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
