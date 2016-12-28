@@ -13,7 +13,7 @@
 					</a>
 				<?php endif; ?>
 
-				<img id="button" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" class="opencharity__header__dropdown-icon">
+				<img id="button" src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png" class="opencharity__header__dropdown-icon">
 
 				<?php if ($page['navigation']): ?>
 					<div class="opencharity__header__nav">

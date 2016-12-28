@@ -98,25 +98,30 @@ h2 {
   padding: 13px 30px;
   color: #565659;
 }
+/* line 41, ../sass/partials/opencharity_header_style.scss */
+.opencharity__header .opencharity__header__nav .menu .menu__item .active {
+  border: 1px solid #5BC0C3;
+  color: #5BC0C3;
+}
 
-/* line 47, ../sass/partials/opencharity_header_style.scss */
+/* line 52, ../sass/partials/opencharity_header_style.scss */
 .opencharity__header__nav--mobile {
   display: none;
 }
-/* line 50, ../sass/partials/opencharity_header_style.scss */
+/* line 55, ../sass/partials/opencharity_header_style.scss */
 .opencharity__header__nav--mobile .menu {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
-/* line 55, ../sass/partials/opencharity_header_style.scss */
+/* line 60, ../sass/partials/opencharity_header_style.scss */
 .opencharity__header__nav--mobile .menu .menu__item {
   padding: 16px;
   text-align: center;
   border-bottom: 0.88px solid #5BC0C3;
   background-color: #fff;
 }
-/* line 61, ../sass/partials/opencharity_header_style.scss */
+/* line 66, ../sass/partials/opencharity_header_style.scss */
 .opencharity__header__nav--mobile .menu .menu__item .menu__link {
   text-transform: uppercase;
   padding: 13px 30px;
@@ -126,11 +131,11 @@ h2 {
 /* Extra exception screens */
 /* Small only  aka mobile*/
 @media screen and (max-width: 39.9375em) {
-  /* line 80, ../sass/partials/opencharity_header_style.scss */
+  /* line 85, ../sass/partials/opencharity_header_style.scss */
   .opencharity__header {
     height: 63px;
   }
-  /* line 84, ../sass/partials/opencharity_header_style.scss */
+  /* line 89, ../sass/partials/opencharity_header_style.scss */
   .opencharity__header .opencharity__header__dropdown-icon {
     display: block;
     position: absolute;
@@ -138,17 +143,17 @@ h2 {
     right: 47px;
     width: 40px;
   }
-  /* line 92, ../sass/partials/opencharity_header_style.scss */
+  /* line 97, ../sass/partials/opencharity_header_style.scss */
   .opencharity__header .opencharity__header__nav {
     display: none;
   }
 }
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  /* line 103, ../sass/partials/opencharity_header_style.scss */
+  /* line 108, ../sass/partials/opencharity_header_style.scss */
   .opencharity__header {
     height: 63px;
   }
-  /* line 107, ../sass/partials/opencharity_header_style.scss */
+  /* line 112, ../sass/partials/opencharity_header_style.scss */
   .opencharity__header .opencharity__header__dropdown-icon {
     display: block;
     position: absolute;
@@ -156,30 +161,30 @@ h2 {
     right: 47px;
     width: 40px;
   }
-  /* line 115, ../sass/partials/opencharity_header_style.scss */
+  /* line 120, ../sass/partials/opencharity_header_style.scss */
   .opencharity__header .opencharity__header__nav {
     display: none;
   }
 
-  /* line 121, ../sass/partials/opencharity_header_style.scss */
+  /* line 126, ../sass/partials/opencharity_header_style.scss */
   .opencharity__banner {
     height: 327px;
   }
-  /* line 125, ../sass/partials/opencharity_header_style.scss */
+  /* line 130, ../sass/partials/opencharity_header_style.scss */
   .opencharity__banner .sub_text--wrapper {
     padding: 54px 30px;
   }
-  /* line 129, ../sass/partials/opencharity_header_style.scss */
+  /* line 134, ../sass/partials/opencharity_header_style.scss */
   .opencharity__banner .sub_text--wrapper .views-field-field-banner-image {
     height: 400px;
   }
-  /* line 133, ../sass/partials/opencharity_header_style.scss */
+  /* line 138, ../sass/partials/opencharity_header_style.scss */
   .opencharity__banner .sub_text--wrapper .first {
     font-size: 34px;
     margin-top: 0px;
     line-height: initial;
   }
-  /* line 139, ../sass/partials/opencharity_header_style.scss */
+  /* line 144, ../sass/partials/opencharity_header_style.scss */
   .opencharity__banner .sub_text--wrapper li {
     width: 60%;
     margin: 23px auto;

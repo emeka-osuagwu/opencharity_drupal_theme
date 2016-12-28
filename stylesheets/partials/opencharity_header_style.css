@@ -9,10 +9,10 @@ Error: Undefined variable: "$black_one".
 37:                     padding: 13px 30px;
 38:                     color: $black_one;
 39:                 }
-40: 
-41:             }
-42:         }
-43:     }
+40:                 
+41:                 .active {
+42:                     border: 1px solid #5BC0C3;
+43:                     color: #5BC0C3;
 
 Backtrace:
 /var/www/html/drupal/drupal/sites/all/themes/opencharity/sass/partials/opencharity_header_style.scss:38
@@ -112,4 +112,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black_one\".\A         on line 38 of /var/www/html/drupal/drupal/sites/all/themes/opencharity/sass/partials/opencharity_header_style.scss\A \A 33:                 padding: 0px;\A 34:                 \A 35:                 .menu__link {\A 36:                     text-transform: uppercase;\A 37:                     padding: 13px 30px;\A 38:                     color: $black_one;\A 39:                 }\A 40: \A 41:             }\A 42:         }\A 43:     }"; }
+  content: "Error: Undefined variable: \"$black_one\".\A         on line 38 of /var/www/html/drupal/drupal/sites/all/themes/opencharity/sass/partials/opencharity_header_style.scss\A \A 33:                 padding: 0px;\A 34:                 \A 35:                 .menu__link {\A 36:                     text-transform: uppercase;\A 37:                     padding: 13px 30px;\A 38:                     color: $black_one;\A 39:                 }\A 40:                 \A 41:                 .active {\A 42:                     border: 1px solid #5BC0C3;\A 43:                     color: #5BC0C3;"; }

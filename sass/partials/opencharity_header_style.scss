@@ -37,6 +37,11 @@
                     padding: 13px 30px;
                     color: $black_one;
                 }
+                
+                .active {
+                    border: 1px solid #5BC0C3;
+                    color: #5BC0C3;
+                }
 
             }
         }
