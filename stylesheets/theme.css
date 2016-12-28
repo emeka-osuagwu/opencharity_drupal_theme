@@ -142,35 +142,58 @@ h2 {
   .opencharity__header .opencharity__header__nav {
     display: none;
   }
-
-  /* line 98, ../sass/partials/opencharity_header_style.scss */
-  .opencharity__banner {
-    background-color: red;
-    padding: 39px 0px;
-  }
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
   /* line 103, ../sass/partials/opencharity_header_style.scss */
-  .opencharity__banner .opencharity__banner__lead_text {
-    font-size: 31px;
-    line-height: normal;
+  .opencharity__header {
+    height: 63px;
+  }
+  /* line 107, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__header .opencharity__header__dropdown-icon {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 47px;
+    width: 40px;
+  }
+  /* line 115, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__header .opencharity__header__nav {
+    display: none;
+  }
+
+  /* line 121, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__banner {
+    height: 327px;
+  }
+  /* line 125, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__banner .sub_text--wrapper {
+    padding: 54px 30px;
+  }
+  /* line 129, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__banner .sub_text--wrapper .views-field-field-banner-image {
+    height: 400px;
+  }
+  /* line 133, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__banner .sub_text--wrapper .first {
+    font-size: 34px;
+    margin-top: 0px;
+    line-height: initial;
+  }
+  /* line 139, ../sass/partials/opencharity_header_style.scss */
+  .opencharity__banner .sub_text--wrapper li {
+    width: 60%;
+    margin: 23px auto;
   }
 }
-/* Medium and up*/
-/* Medium only aka ipad */
-/* Large and up  aka big ipad and laptops :(*/
-/* Large only */
 /* line 21, ../sass/partials/banner_style.scss */
 .opencharity__banner {
-  color: red;
   height: 100%;
   overflow: hidden;
   margin: 0px;
   text-align: center;
-  background-image: url("../../assets/image/Link to JBW2PXDOL6.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
 }
-/* line 32, ../sass/partials/banner_style.scss */
+/* line 28, ../sass/partials/banner_style.scss */
 .opencharity__banner .opencharity__banner__lead_overlay {
   position: absolute;
   display: none;
@@ -181,11 +204,11 @@ h2 {
   color: #FFF;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 43, ../sass/partials/banner_style.scss */
+/* line 39, ../sass/partials/banner_style.scss */
 .opencharity__banner .views-field-field-banner-image {
   height: 500px;
 }
-/* line 47, ../sass/partials/banner_style.scss */
+/* line 43, ../sass/partials/banner_style.scss */
 .opencharity__banner .sub_text--wrapper {
   position: absolute;
   padding: 80px 30px;
@@ -196,7 +219,7 @@ h2 {
   color: #FFF;
   background: rgba(0, 0, 0, 0.6);
 }
-/* line 57, ../sass/partials/banner_style.scss */
+/* line 53, ../sass/partials/banner_style.scss */
 .opencharity__banner .sub_text--wrapper .first {
   text-transform: uppercase;
   font-size: 50px;
@@ -206,7 +229,7 @@ h2 {
   text-align: center;
   width: 100%;
 }
-/* line 62, ../sass/partials/banner_style.scss */
+/* line 58, ../sass/partials/banner_style.scss */
 .opencharity__banner .sub_text--wrapper li {
   margin: 40px auto;
   display: block;
@@ -366,3 +389,161 @@ h2 {
   width: 100px;
   vertical-align: -webkit-baseline-middle;
 }
+
+/* Extra exception screens */
+@media screen and (max-width: 320px) {
+  /* line 6, ../sass/partials/viewport.scss */
+  .opencharity__header .opencharity__header__logo {
+    width: 155px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: -16px;
+    display: inline-block;
+  }
+
+  /* line 14, ../sass/partials/viewport.scss */
+  .opencharity__header .opencharity__header__dropdown-icon {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 30px;
+    width: 40px;
+  }
+}
+/* Small only  aka mobile*/
+@media screen and (max-width: 39.9375em) {
+  /* line 26, ../sass/partials/viewport.scss */
+  .opencharity__header {
+    height: 63px;
+  }
+  /* line 30, ../sass/partials/viewport.scss */
+  .opencharity__header .opencharity__header__dropdown-icon {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 47px;
+    width: 40px;
+  }
+  /* line 38, ../sass/partials/viewport.scss */
+  .opencharity__header .opencharity__header__nav {
+    display: none;
+  }
+
+  /* line 45, ../sass/partials/viewport.scss */
+  .opencharity__banner .sub_text--wrapper {
+    padding: 54px 30px;
+  }
+  /* line 49, ../sass/partials/viewport.scss */
+  .opencharity__banner .sub_text--wrapper .views-field-field-banner-image {
+    height: 400px;
+  }
+  /* line 53, ../sass/partials/viewport.scss */
+  .opencharity__banner .sub_text--wrapper .first {
+    font-size: 34px;
+    margin-top: 0px;
+    line-height: initial;
+  }
+  /* line 59, ../sass/partials/viewport.scss */
+  .opencharity__banner .sub_text--wrapper li {
+    width: 93%;
+    margin: 23px auto;
+  }
+
+  /* line 69, ../sass/partials/viewport.scss */
+  .opencharity__call_to_action--social td {
+    display: inline-block;
+    width: 92%;
+    margin-top: 20px;
+    padding: 18px;
+  }
+
+  /* line 77, ../sass/partials/viewport.scss */
+  .opencharity__slider--blog_slider td {
+    text-align: left;
+    display: inline-block;
+    width: 81%;
+    margin: 9px;
+  }
+
+  /* line 86, ../sass/partials/viewport.scss */
+  .opencharity__slider--member_slider table tr td {
+    display: none;
+  }
+  /* line 90, ../sass/partials/viewport.scss */
+  .opencharity__slider--member_slider ul li {
+    margin: 30px 64px;
+    display: inline-block;
+  }
+
+  /* line 97, ../sass/partials/viewport.scss */
+  .opencharity__footer {
+    background-color: #454850;
+    text-align: center;
+    padding: 20px 20px;
+  }
+}
+/* Medium only aka ipad */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  /* line 110, ../sass/partials/viewport.scss */
+  .opencharity__header {
+    height: 63px;
+  }
+  /* line 114, ../sass/partials/viewport.scss */
+  .opencharity__header .opencharity__header__dropdown-icon {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 47px;
+    width: 40px;
+  }
+  /* line 122, ../sass/partials/viewport.scss */
+  .opencharity__header .opencharity__header__nav {
+    display: none;
+  }
+
+  /* line 128, ../sass/partials/viewport.scss */
+  .opencharity__banner {
+    height: 327px;
+  }
+  /* line 132, ../sass/partials/viewport.scss */
+  .opencharity__banner .sub_text--wrapper {
+    padding: 54px 30px;
+  }
+  /* line 136, ../sass/partials/viewport.scss */
+  .opencharity__banner .sub_text--wrapper .first {
+    font-size: 34px;
+    margin-top: 0px;
+    line-height: initial;
+  }
+  /* line 142, ../sass/partials/viewport.scss */
+  .opencharity__banner .sub_text--wrapper li {
+    width: 60%;
+    margin: 23px auto;
+  }
+
+  /* line 153, ../sass/partials/viewport.scss */
+  .opencharity__call_to_action--social table td {
+    width: 54%;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  /* line 167, ../sass/partials/viewport.scss */
+  .opencharity__slider--member_slider ul li {
+    margin: 2px 32px;
+    display: inline-block;
+  }
+
+  /* line 177, ../sass/partials/viewport.scss */
+  .opencharity__slider--blog_slider td {
+    display: inline-block;
+    width: 44%;
+    margin: 15px;
+  }
+}
+/* Extra exception screens */
+/* Small only  aka mobile*/
+/* Medium and up*/
+/* Medium only aka ipad */
+/* Large and up  aka big ipad and laptops :(*/
+/* Large only */

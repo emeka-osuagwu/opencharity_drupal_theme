@@ -95,29 +95,51 @@
         
     }
 
-    .opencharity__banner {
-        
-        background-color: red;
-        padding: 39px 0px;
+}
 
-        .opencharity__banner__lead_text {
-            font-size: 31px;
-            line-height: normal;
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+
+    .opencharity__header {
+        
+        height: 63px;
+
+        .opencharity__header__dropdown-icon {
+            display: block;
+            position: absolute;
+            top: 13px;
+            right: 47px;
+            width: 40px;
+        }
+
+        .opencharity__header__nav {
+            display: none;
         }
     }
 
+
+    .opencharity__banner {
+        
+        height: 327px;
+        
+        .sub_text--wrapper {
+
+            padding: 54px 30px;
+
+            .views-field-field-banner-image {
+                height: 400px;
+            }
+
+            .first {
+                font-size: 34px;
+                margin-top: 0px;
+                line-height: initial;
+            }
+
+            li {
+                width: 60%;
+                margin: 23px auto;
+            }
+        }
+    }   
 }
-
-/* Medium and up*/
-@media screen and (min-width: 40em) {}
-
-/* Medium only aka ipad */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
-
-/* Large and up  aka big ipad and laptops :(*/
-@media screen and (min-width: 64em) {}
-
-/* Large only */
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
-
-@media screen and (max-width: 768px) {}

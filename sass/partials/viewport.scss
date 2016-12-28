@@ -1,0 +1,215 @@
+
+
+/* Extra exception screens */
+@media screen and (max-width: 320px) {
+
+    .opencharity__header .opencharity__header__logo {
+        width: 155px;
+        padding: 0px;
+        margin: 0px;
+        margin-left: -16px;
+        display: inline-block;
+    }
+    
+    .opencharity__header .opencharity__header__dropdown-icon {
+        display: block;
+        position: absolute;
+        top: 13px;
+        right: 30px;
+        width: 40px;
+    }
+}
+
+/* Small only  aka mobile*/
+@media screen and (max-width: 39.9375em) {
+
+    .opencharity__header {
+        
+        height: 63px;
+
+        .opencharity__header__dropdown-icon {
+            display: block;
+            position: absolute;
+            top: 13px;
+            right: 47px;
+            width: 40px;
+        }
+
+        .opencharity__header__nav {
+            display: none;
+        }   
+    }
+
+    .opencharity__banner {
+
+        .sub_text--wrapper {
+
+            padding: 54px 30px;
+
+            .views-field-field-banner-image {
+                height: 400px;
+            }
+
+            .first {
+                font-size: 34px;
+                margin-top: 0px;
+                line-height: initial;
+            }
+
+            li {
+                width: 93%;
+                margin: 23px auto;
+            }
+        
+        }
+    }
+
+    .opencharity__call_to_action--social {
+        
+        td {
+            display: inline-block;
+            width: 92%;
+            margin-top: 20px;
+            padding: 18px;
+        }
+    }
+
+    .opencharity__slider--blog_slider td {
+        text-align: left;
+        display: inline-block;
+        width: 81%;
+        margin: 9px;
+    }
+
+    .opencharity__slider--member_slider {
+        
+        table tr td{
+            display: none;
+        }
+
+        ul li {
+            margin: 30px 64px;
+            display: inline-block;
+        }
+
+    }
+
+    .opencharity__footer {
+        background-color: #454850;
+        text-align: center;
+        padding: 20px 20px;
+    }
+
+}
+
+
+
+/* Medium only aka ipad */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+    .opencharity__header {
+        
+        height: 63px;
+
+        .opencharity__header__dropdown-icon {
+            display: block;
+            position: absolute;
+            top: 13px;
+            right: 47px;
+            width: 40px;
+        }
+
+        .opencharity__header__nav {
+            display: none;
+        }
+    }
+
+
+    .opencharity__banner {
+        
+        height: 327px;
+        
+        .sub_text--wrapper {
+
+            padding: 54px 30px;
+
+            .first {
+                font-size: 34px;
+                margin-top: 0px;
+                line-height: initial;
+            }
+
+            li {
+                width: 60%;
+                margin: 23px auto;
+            }
+        }
+    }   
+
+    .opencharity__call_to_action--social {
+
+        table {
+
+            td {
+                width: 54%;
+                margin-top: 20px;
+                padding: 15px;        
+            }
+            
+        }
+        
+    }
+
+    .opencharity__slider--member_slider {
+        
+        ul {
+
+            li {
+                margin: 2px 32px;
+                display: inline-block;
+
+            }
+        }
+    }
+
+    .opencharity__slider--blog_slider {
+    
+        td {
+            display: inline-block;
+            width: 44%;
+            margin: 15px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra exception screens */
+@media screen and (max-width: 320px) {}
+
+/* Small only  aka mobile*/
+@media screen and (max-width: 39.9375em) {}
+
+/* Medium and up*/
+@media screen and (min-width: 40em) {}
+
+/* Medium only aka ipad */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up  aka big ipad and laptops :(*/
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+@media screen and (max-width: 768px) {}
