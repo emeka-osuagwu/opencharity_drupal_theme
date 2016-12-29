@@ -1,5 +1,5 @@
 
-BUILD A THEME WITH ZEN
+##OPENCHARITY
 ----------------------
 The opencharity theme was created based on drupal 7 theme evaluate.
 
