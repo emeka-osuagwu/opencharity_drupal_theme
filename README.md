@@ -27,4 +27,19 @@ Task build a responsive drupal 7 base theme
 6. Create Nodequeue to categories articles / content.
 7. Create Views to hold content type and nodequeue articles.
 
+#### How Can I use this?
 
+
+```bash
+# Get the project
+cd TO-THE-PATH-WHERE-YOUR-DRUPAL-THEME-FOLDER-IS-LOCATED
+
+git clone https://github.com/emeka-osuagwu/opencharity_drupal_theme.git.
+
+#
+
+```
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
