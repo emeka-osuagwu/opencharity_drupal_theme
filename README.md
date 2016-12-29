@@ -18,3 +18,7 @@ Task build a responsive drupal 7 base theme
 - Drupal 7 - [This was used to build the theme]<br >
 
 #### Approche
+
+1. Create a ZEN Sub Theme.
+2. Create a page.tpl.php file under the template folder.
+3. Install all necessary like (View, Nodequeue, Ctools, Display suite etc).
