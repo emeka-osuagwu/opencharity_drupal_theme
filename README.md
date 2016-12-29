@@ -36,9 +36,9 @@ cd TO-THE-PATH-WHERE-YOUR-DRUPAL-THEME-FOLDER-IS-LOCATED
 
 git clone https://github.com/emeka-osuagwu/opencharity_drupal_theme.git.
 
-#
-
 ```
+
+[Link](https://github.com/emeka-osuagwu/opencharity) to RAW HTML5, CSS3 Design.
 
 ## License
 
