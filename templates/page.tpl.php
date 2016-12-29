@@ -1,7 +1,6 @@
 
 <div class="opencharity">
 	
-
 	<?php if ($page['header']): ?>
 		
 		<!-- #Header -->
@@ -30,10 +29,8 @@
 			<?php endif; ?>
 
 		<!-- #Header -->
-
 	<?php endif; ?>
 	
-
 	<?php if ($page['banner']): ?>
 		<div class="opencharity__banner">
 			<?php print render($page['banner']); ?>
@@ -45,8 +42,6 @@
 			<?php print render($page['involved']); ?>
 		</div>
 	<?php endif; ?>
-
-
 
 	<?php if ($page['member']): ?>
 		<div class="opencharity__slider--member_slider">
@@ -65,7 +60,5 @@
 			<?php print render($page['footer']); ?>
 		</footer>
 	<?php endif; ?>
-
-
 	
 </div>
