@@ -1,0 +1,30 @@
+            
+.opencharity__call_to_action--event {
+    background-color: $gray;
+    padding: 20px 100px;
+}
+
+.opencharity__call_to_action--event__event_info {
+    display: inline-block;
+    width: 80%;
+}
+
+.opencharity__call_to_action--event__event_info__time {
+    margin: 7px;
+}
+
+.opencharity__call_to_action--event__event_info__venue {
+    margin: 7px;
+}
+
+.opencharity__call_to_action--event__event_info__register_button {
+    display: inline-block;
+    float: right;
+    padding: 10px 30px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #5BC0C3;
+    color: #fff;
+    box-shadow: none;
+}
+

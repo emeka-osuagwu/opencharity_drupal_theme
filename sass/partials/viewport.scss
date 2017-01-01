@@ -100,6 +100,29 @@
         padding: 20px 20px;
     }
 
+    .opencharity__call_to_action--event {
+        padding: 20px 21px;
+        text-align: center;
+
+        .opencharity__call_to_action--event__event_info__time {
+            margin: 7px;
+            text-align: center;
+        }
+
+        .opencharity__call_to_action--event__event_info__venue {
+            margin: 7px;
+            text-align: center;
+        }
+
+        .opencharity__call_to_action--event__event_info {
+            font-size: 12px;
+        }
+
+        .opencharity__call_to_action--event__event_info__register_button {
+            float: none;
+        }
+    }
+
 }
 
 
@@ -179,6 +202,11 @@
             width: 44%;
             margin: 15px;
         }
+    }
+
+    .opencharity__call_to_action--event {
+        background-color: #F1F2F5;
+        padding: 20px 47px;
     }
 
 }
