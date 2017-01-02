@@ -245,82 +245,38 @@ h2 {
   width: 44%;
 }
 
-/* line 3, ../sass/partials/footer_style.scss */
-.opencharity__footer {
-  background-color: #454850;
-  text-align: center;
+/* line 2, ../sass/partials/event_style.scss */
+.opencharity__call_to_action--event {
+  background-color: #F1F2F5;
   padding: 20px 100px;
 }
-/* line 8, ../sass/partials/footer_style.scss */
-.opencharity__footer .opencharity__footer__nav {
-  display: block;
-  padding: 10px;
-  border-bottom: 2px solid;
-}
-/* line 13, ../sass/partials/footer_style.scss */
-.opencharity__footer .opencharity__footer__nav li {
+
+/* line 7, ../sass/partials/event_style.scss */
+.opencharity__call_to_action--event__event_info {
   display: inline-block;
-  margin: 5px;
-}
-/* line 17, ../sass/partials/footer_style.scss */
-.opencharity__footer .opencharity__footer__nav li img {
-  width: 20px;
-  mix-width: 10px;
-  min-width: 10px;
-}
-/* line 24, ../sass/partials/footer_style.scss */
-.opencharity__footer .opencharity__footer__nav .first img {
-  width: 10px;
-}
-/* line 28, ../sass/partials/footer_style.scss */
-.opencharity__footer .opencharity__footer__nav .last img {
-  width: 23px;
-}
-/* line 34, ../sass/partials/footer_style.scss */
-.opencharity__footer .opencharity__footer__trade_mark {
-  padding: 10px;
-  display: block;
-}
-/* line 38, ../sass/partials/footer_style.scss */
-.opencharity__footer .opencharity__footer__trade_mark li {
-  display: inline-block;
-  color: #969EB7;
-  font-size: 14px;
+  width: 80%;
 }
 
-/* line 3, ../sass/partials/blog_style.scss */
-.opencharity__slider--blog_slider {
-  text-align: center;
-  padding: 20px 0px;
+/* line 12, ../sass/partials/event_style.scss */
+.opencharity__call_to_action--event__event_info__time {
+  margin: 7px;
 }
-/* line 7, ../sass/partials/blog_style.scss */
-.opencharity__slider--blog_slider .block__title {
-  text-transform: uppercase;
-  margin: 20px;
-  font-size: 30px;
+
+/* line 16, ../sass/partials/event_style.scss */
+.opencharity__call_to_action--event__event_info__venue {
+  margin: 7px;
 }
-/* line 13, ../sass/partials/blog_style.scss */
-.opencharity__slider--blog_slider td {
-  text-align: left;
+
+/* line 20, ../sass/partials/event_style.scss */
+.opencharity__call_to_action--event__event_info__register_button {
   display: inline-block;
-  width: 22%;
-  margin: 9px;
-}
-/* line 19, ../sass/partials/blog_style.scss */
-.opencharity__slider--blog_slider td .first {
-  color: #5BC0C3;
-  margin-bottom: 7px;
-}
-/* line 24, ../sass/partials/blog_style.scss */
-.opencharity__slider--blog_slider td li:nth-child(2) {
-  border-top: 1px solid #F1F2F5;
-  border-bottom: 1px solid #F1F2F5;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-/* line 31, ../sass/partials/blog_style.scss */
-.opencharity__slider--blog_slider td li:nth-child(3) {
-  margin-top: 20px;
+  float: right;
+  padding: 10px 30px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #5BC0C3;
+  color: #fff;
+  box-shadow: none;
 }
 
 /* line 1, ../sass/partials/social_style.scss */
@@ -372,38 +328,107 @@ h2 {
   margin: 0px auto;
 }
 
-/* line 2, ../sass/partials/event_style.scss */
-.opencharity__call_to_action--event {
+/* line 3, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider {
+  text-align: center;
+  padding: 20px 0px;
+}
+/* line 7, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider .block__title {
+  text-transform: uppercase;
+  margin: 20px;
+  font-size: 30px;
+}
+/* line 13, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider td {
+  text-align: left;
+  display: inline-block;
+  width: 22%;
+  margin: 9px;
+}
+/* line 19, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider td .first {
+  color: #5BC0C3;
+  margin-bottom: 7px;
+}
+/* line 24, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider td li:nth-child(2) {
+  border-top: 1px solid #F1F2F5;
+  border-bottom: 1px solid #F1F2F5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/* line 31, ../sass/partials/blog_style.scss */
+.opencharity__slider--blog_slider td li:nth-child(3) {
+  margin-top: 20px;
+}
+
+/* line 1, ../sass/partials/mission_style.scss */
+.opencharity__info--mission-info {
+  text-align: center;
+  padding: 20px 100px;
   background-color: #F1F2F5;
+}
+/* line 6, ../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__lead_text {
+  font-size: 25px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+}
+/* line 14, ../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__sub_text {
+  margin: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+/* line 20, ../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col--wrapper {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+  margin-top: 87px;
+  padding: 4px;
+}
+/* line 29, ../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col {
+  padding: 0px 20px;
+  padding-top: 66px;
+  height: 164px;
+  max-height: auto;
+  border-radius: 5px;
+  position: relative;
+  background-color: #fff;
+}
+/* line 39, ../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col__image--wrapper {
+  width: 100px;
+  margin: 0px auto;
+  margin-top: -117px;
+  border: 12px solid #fff;
+  border-radius: 100%;
+  height: 99px;
+  position: initial;
+  left: 113px;
+  background-color: #5BC0C3;
+  top: 0px;
+}
+/* line 52, ../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col__lead_text {
+  padding: 10px;
+  color: #5BC0C3;
+  text-align: center;
+}
+/* line 58, ../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info {
+  text-align: center;
   padding: 20px 100px;
 }
 
-/* line 7, ../sass/partials/event_style.scss */
-.opencharity__call_to_action--event__event_info {
-  display: inline-block;
-  width: 80%;
-}
-
-/* line 12, ../sass/partials/event_style.scss */
-.opencharity__call_to_action--event__event_info__time {
-  margin: 7px;
-}
-
-/* line 16, ../sass/partials/event_style.scss */
-.opencharity__call_to_action--event__event_info__venue {
-  margin: 7px;
-}
-
-/* line 20, ../sass/partials/event_style.scss */
-.opencharity__call_to_action--event__event_info__register_button {
-  display: inline-block;
-  float: right;
-  padding: 10px 30px;
-  margin-top: 10px;
-  text-transform: uppercase;
-  background-color: #5BC0C3;
-  color: #fff;
-  box-shadow: none;
+/* line 65, ../sass/partials/mission_style.scss */
+p.opencharity__info--mission-info__col__sub_text {
+  text-align: center;
 }
 
 /* line 1, ../sass/partials/member_style.scss */
@@ -429,73 +454,47 @@ h2 {
   vertical-align: -webkit-baseline-middle;
 }
 
-/* line 1, ../sass/partials/mission_style.scss */
-.opencharity__info--mission-info {
+/* line 3, ../sass/partials/footer_style.scss */
+.opencharity__footer {
+  background-color: #454850;
   text-align: center;
   padding: 20px 100px;
 }
-
-/* line 6, ../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__lead_text {
-  margin-top: 20px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
-
-/* line 12, ../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__sub_text {
-  margin: 10px;
-  font-size: 16px;
-}
-
-/* line 17, ../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col--wrapper {
-  display: inline-block;
-  width: 30%;
-  margin: 10px;
-  margin-top: 87px;
-  padding: 4px;
-}
-
-/* line 26, ../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col {
-  padding: 0px 20px;
-  padding-top: 66px;
-  height: 164px;
-  max-height: auto;
-  border-radius: 5px;
-  position: relative;
-}
-
-/* line 35, ../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col__image--wrapper {
-  width: 100px;
-  margin: 0px auto;
-  margin-top: -117px;
-  border: 12px solid #fff;
-  border-radius: 100%;
-  height: 99px;
-  position: initial;
-  left: 113px;
-  top: 0px;
-}
-
-/* line 47, ../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col__image {
-  width: 50%;
-  margin-top: 22px;
-}
-
-/* line 52, ../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col__lead_text {
+/* line 8, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav {
+  display: block;
   padding: 10px;
+  border-bottom: 2px solid;
 }
-
-/* line 59, ../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__bottom_line {
-  margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
+/* line 13, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav li {
+  display: inline-block;
+  margin: 5px;
+}
+/* line 17, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav li img {
+  width: 20px;
+  mix-width: 10px;
+  min-width: 10px;
+}
+/* line 24, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav .first img {
+  width: 10px;
+}
+/* line 28, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__nav .last img {
+  width: 23px;
+}
+/* line 34, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__trade_mark {
+  padding: 10px;
+  display: block;
+}
+/* line 38, ../sass/partials/footer_style.scss */
+.opencharity__footer .opencharity__footer__trade_mark li {
+  display: inline-block;
+  color: #969EB7;
+  font-size: 14px;
 }
 
 /* Extra exception screens */
@@ -520,11 +519,11 @@ h2 {
 }
 /* Small only  aka mobile*/
 @media screen and (max-width: 39.9375em) {
-  /* line 26, ../sass/partials/viewport.scss */
+  /* line 28, ../sass/partials/viewport.scss */
   .opencharity__header {
     height: 63px;
   }
-  /* line 30, ../sass/partials/viewport.scss */
+  /* line 32, ../sass/partials/viewport.scss */
   .opencharity__header .opencharity__header__dropdown-icon {
     display: block;
     position: absolute;
@@ -532,32 +531,32 @@ h2 {
     right: 47px;
     width: 40px;
   }
-  /* line 38, ../sass/partials/viewport.scss */
+  /* line 40, ../sass/partials/viewport.scss */
   .opencharity__header .opencharity__header__nav {
     display: none;
   }
 
-  /* line 45, ../sass/partials/viewport.scss */
+  /* line 47, ../sass/partials/viewport.scss */
   .opencharity__banner .sub_text--wrapper {
     padding: 54px 30px;
   }
-  /* line 49, ../sass/partials/viewport.scss */
+  /* line 51, ../sass/partials/viewport.scss */
   .opencharity__banner .sub_text--wrapper .views-field-field-banner-image {
     height: 400px;
   }
-  /* line 53, ../sass/partials/viewport.scss */
+  /* line 55, ../sass/partials/viewport.scss */
   .opencharity__banner .sub_text--wrapper .first {
     font-size: 34px;
     margin-top: 0px;
     line-height: initial;
   }
-  /* line 59, ../sass/partials/viewport.scss */
+  /* line 61, ../sass/partials/viewport.scss */
   .opencharity__banner .sub_text--wrapper li {
     width: 93%;
     margin: 23px auto;
   }
 
-  /* line 69, ../sass/partials/viewport.scss */
+  /* line 71, ../sass/partials/viewport.scss */
   .opencharity__call_to_action--social td {
     display: inline-block;
     width: 92%;
@@ -565,7 +564,7 @@ h2 {
     padding: 18px;
   }
 
-  /* line 77, ../sass/partials/viewport.scss */
+  /* line 79, ../sass/partials/viewport.scss */
   .opencharity__slider--blog_slider td {
     text-align: left;
     display: inline-block;
@@ -573,54 +572,67 @@ h2 {
     margin: 9px;
   }
 
-  /* line 86, ../sass/partials/viewport.scss */
+  /* line 88, ../sass/partials/viewport.scss */
   .opencharity__slider--member_slider table tr td {
     display: none;
   }
-  /* line 90, ../sass/partials/viewport.scss */
+  /* line 92, ../sass/partials/viewport.scss */
   .opencharity__slider--member_slider ul li {
     margin: 30px 64px;
     display: inline-block;
   }
 
-  /* line 97, ../sass/partials/viewport.scss */
+  /* line 99, ../sass/partials/viewport.scss */
   .opencharity__footer {
     background-color: #454850;
     text-align: center;
     padding: 20px 20px;
   }
 
-  /* line 103, ../sass/partials/viewport.scss */
+  /* line 105, ../sass/partials/viewport.scss */
   .opencharity__call_to_action--event {
     padding: 20px 21px;
     text-align: center;
   }
-  /* line 107, ../sass/partials/viewport.scss */
+  /* line 109, ../sass/partials/viewport.scss */
   .opencharity__call_to_action--event .opencharity__call_to_action--event__event_info__time {
     margin: 7px;
     text-align: center;
   }
-  /* line 112, ../sass/partials/viewport.scss */
+  /* line 114, ../sass/partials/viewport.scss */
   .opencharity__call_to_action--event .opencharity__call_to_action--event__event_info__venue {
     margin: 7px;
     text-align: center;
   }
-  /* line 117, ../sass/partials/viewport.scss */
+  /* line 119, ../sass/partials/viewport.scss */
   .opencharity__call_to_action--event .opencharity__call_to_action--event__event_info {
     font-size: 12px;
   }
-  /* line 121, ../sass/partials/viewport.scss */
+  /* line 123, ../sass/partials/viewport.scss */
   .opencharity__call_to_action--event .opencharity__call_to_action--event__event_info__register_button {
     float: none;
+  }
+
+  /* line 128, ../sass/partials/viewport.scss */
+  .opencharity__info--mission-info {
+    padding: 20px 10px;
+  }
+  /* line 131, ../sass/partials/viewport.scss */
+  .opencharity__info--mission-info .opencharity__info--mission-info__col--wrapper {
+    display: inline-block;
+    width: 91%;
+    margin: 10px;
+    margin-top: 68px;
+    padding: 4px;
   }
 }
 /* Medium only aka ipad */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  /* line 133, ../sass/partials/viewport.scss */
+  /* line 147, ../sass/partials/viewport.scss */
   .opencharity__header {
     height: 63px;
   }
-  /* line 137, ../sass/partials/viewport.scss */
+  /* line 151, ../sass/partials/viewport.scss */
   .opencharity__header .opencharity__header__dropdown-icon {
     display: block;
     position: absolute;
@@ -628,55 +640,74 @@ h2 {
     right: 47px;
     width: 40px;
   }
-  /* line 145, ../sass/partials/viewport.scss */
+  /* line 159, ../sass/partials/viewport.scss */
   .opencharity__header .opencharity__header__nav {
     display: none;
   }
 
-  /* line 151, ../sass/partials/viewport.scss */
+  /* line 165, ../sass/partials/viewport.scss */
   .opencharity__banner {
     height: 327px;
   }
-  /* line 155, ../sass/partials/viewport.scss */
+  /* line 169, ../sass/partials/viewport.scss */
   .opencharity__banner .sub_text--wrapper {
     padding: 54px 30px;
   }
-  /* line 159, ../sass/partials/viewport.scss */
+  /* line 173, ../sass/partials/viewport.scss */
   .opencharity__banner .sub_text--wrapper .first {
     font-size: 34px;
     margin-top: 0px;
     line-height: initial;
   }
-  /* line 165, ../sass/partials/viewport.scss */
+  /* line 179, ../sass/partials/viewport.scss */
   .opencharity__banner .sub_text--wrapper li {
     width: 60%;
     margin: 23px auto;
   }
 
-  /* line 176, ../sass/partials/viewport.scss */
+  /* line 190, ../sass/partials/viewport.scss */
   .opencharity__call_to_action--social table td {
     width: 54%;
     margin-top: 20px;
     padding: 15px;
   }
 
-  /* line 190, ../sass/partials/viewport.scss */
+  /* line 204, ../sass/partials/viewport.scss */
   .opencharity__slider--member_slider ul li {
     margin: 2px 32px;
     display: inline-block;
   }
 
-  /* line 200, ../sass/partials/viewport.scss */
+  /* line 214, ../sass/partials/viewport.scss */
   .opencharity__slider--blog_slider td {
     display: inline-block;
     width: 44%;
     margin: 15px;
   }
 
-  /* line 207, ../sass/partials/viewport.scss */
+  /* line 221, ../sass/partials/viewport.scss */
   .opencharity__call_to_action--event {
     background-color: #F1F2F5;
     padding: 20px 47px;
+  }
+
+  /* line 226, ../sass/partials/viewport.scss */
+  .opencharity__info--mission-info {
+    padding: 20px 20px;
+  }
+  /* line 229, ../sass/partials/viewport.scss */
+  .opencharity__info--mission-info .opencharity__info--mission-info__lead_text {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  /* line 235, ../sass/partials/viewport.scss */
+  .opencharity__info--mission-info .opencharity__info--mission-info__col--wrapper {
+    width: 30%;
+    margin: 6px;
+    margin-top: 79px;
+    vertical-align: top;
+    height: 200px;
   }
 }
 /* Extra exception screens */

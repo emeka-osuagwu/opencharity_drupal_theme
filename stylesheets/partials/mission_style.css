@@ -2,42 +2,42 @@
 .opencharity__info--mission-info {
   text-align: center;
   padding: 20px 100px;
+  background-color: #F1F2F5;
 }
-
 /* line 6, ../../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__lead_text {
+.opencharity__info--mission-info .opencharity__info--mission-info__lead_text {
+  font-size: 25px;
   margin-top: 20px;
   text-transform: uppercase;
   margin-bottom: 30px;
+  text-align: center;
 }
-
-/* line 12, ../../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__sub_text {
+/* line 14, ../../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__sub_text {
   margin: 10px;
   font-size: 16px;
+  text-align: center;
 }
-
-/* line 17, ../../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col--wrapper {
+/* line 20, ../../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col--wrapper {
   display: inline-block;
   width: 30%;
   margin: 10px;
   margin-top: 87px;
   padding: 4px;
 }
-
-/* line 26, ../../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col {
+/* line 29, ../../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col {
   padding: 0px 20px;
   padding-top: 66px;
   height: 164px;
   max-height: auto;
   border-radius: 5px;
   position: relative;
+  background-color: #fff;
 }
-
-/* line 35, ../../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col__image--wrapper {
+/* line 39, ../../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info__col__image--wrapper {
   width: 100px;
   margin: 0px auto;
   margin-top: -117px;
@@ -46,23 +46,22 @@
   height: 99px;
   position: initial;
   left: 113px;
+  background-color: #5BC0C3;
   top: 0px;
 }
-
-/* line 47, ../../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col__image {
-  width: 50%;
-  margin-top: 22px;
-}
-
 /* line 52, ../../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__col__lead_text {
+.opencharity__info--mission-info .opencharity__info--mission-info__col__lead_text {
   padding: 10px;
+  color: #5BC0C3;
+  text-align: center;
+}
+/* line 58, ../../sass/partials/mission_style.scss */
+.opencharity__info--mission-info .opencharity__info--mission-info {
+  text-align: center;
+  padding: 20px 100px;
 }
 
-/* line 59, ../../sass/partials/mission_style.scss */
-.opencharity__info--mission-info__bottom_line {
-  margin-top: 30px;
-  margin-left: 20px;
-  margin-right: 20px;
+/* line 65, ../../sass/partials/mission_style.scss */
+p.opencharity__info--mission-info__col__sub_text {
+  text-align: center;
 }

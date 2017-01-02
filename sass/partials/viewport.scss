@@ -18,6 +18,8 @@
         right: 30px;
         width: 40px;
     }
+
+
 }
 
 /* Small only  aka mobile*/
@@ -123,6 +125,18 @@
         }
     }
 
+    .opencharity__info--mission-info {
+        padding: 20px 10px;
+        
+        .opencharity__info--mission-info__col--wrapper {
+            display: inline-block;
+            width: 91%;
+            margin: 10px;
+            margin-top: 68px;
+            padding: 4px;
+        }
+    }
+
 }
 
 
@@ -208,6 +222,26 @@
         background-color: #F1F2F5;
         padding: 20px 47px;
     }
+
+    .opencharity__info--mission-info {
+        padding: 20px 20px;
+        
+        .opencharity__info--mission-info__lead_text {
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+
+        .opencharity__info--mission-info__col--wrapper {
+            width: 30%;
+            margin: 6px;
+            margin-top: 79px;
+            vertical-align: top;
+            height: 200px;
+        }
+
+    }
+
 
 }
 
