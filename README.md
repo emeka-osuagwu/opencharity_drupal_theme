@@ -27,6 +27,10 @@ Task build a responsive drupal 7 base theme
 6. Create Nodequeue to categories articles / content.
 7. Create Views to hold content type and nodequeue articles.
 
+#### How to login
+- Move to the bottom of the page
+- click on the login link
+
 #### How Can I use this?
 
 
